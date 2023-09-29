@@ -1,4 +1,5 @@
-# Spring JPA Concepts
+<details>
+<summary> Spring JPA Concepts </summary>
 <details>
     
 <summary> @Version  </summary>
@@ -52,6 +53,8 @@ If another transaction is trying to update the same product at the same time, an
 
 The `@Version` annotation is a powerful tool that can help to prevent data loss and corruption. It is an important part of Spring Boot's concurrency control mechanism.
 ```
+</details>
+
 </details>
 
 
