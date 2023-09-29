@@ -1,7 +1,7 @@
 # Spring JPA Concepts
 <details>
     
-<summary> ` @Version ` </summary>
+<summary> @Version  </summary>
 
 ### Explanation
 
