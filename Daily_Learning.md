@@ -10,26 +10,6 @@ The `@Version` annotation can be used with any entity that has a version field. 
 
 The `@Version` annotation is a powerful tool that can help prevent data loss and corruption. It plays an essential role in Spring Boot's concurrency control mechanism.
 
-java
-Here is an example of how to use the `@Version` annotation in Spring Boot:
-
-```java
-@Entity
-public class Product {
-
-    @Id
-    @GeneratedValue
-    private long id;
-
-    private String name;
-
-    @Version
-    private long version;
-
-    // Getters and setters omitted
-}
-
-Certainly! Here's your content in Markdown format:
 
 ```markdown
 ```java
