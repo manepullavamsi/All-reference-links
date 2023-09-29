@@ -1,7 +1,7 @@
 # Spring JPA Concepts
 <details>
     
-<summary>## @Version Annotation</summary>
+<summary> ## @Version </summary>
 
 ### Explanation
 
