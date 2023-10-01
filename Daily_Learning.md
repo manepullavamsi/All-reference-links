@@ -54,5 +54,37 @@ The `@Version` annotation is a powerful tool that can help to prevent data loss 
 
 </details>
 
+<details>
+Sql Things
+<details>
+    <summary> OFFSET </summary>
+    In SQL, the term "offset" is commonly used in combination with the "LIMIT" clause to control the number of rows returned by a query and to specify how many rows should be skipped before starting to retrieve rows. This is often used for implementing pagination or retrieving subsets of data.
+
+Here's the basic syntax for using "LIMIT" and "OFFSET" in an SQL query:
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+LIMIT number_of_rows_to_return OFFSET number_of_rows_to_skip;
+```
+
+- `LIMIT`: Specifies the maximum number of rows to be returned by the query.
+- `OFFSET`: Specifies the number of rows to skip before starting to retrieve rows.
+
+For example, suppose you have a table called "employees" and you want to retrieve 10 records starting from the 11th record (i.e., skipping the first 10 records). You can use OFFSET and LIMIT like this:
+
+```sql
+SELECT * FROM employees
+LIMIT 10 OFFSET 10;
+```
+
+This query would return records 11 to 20 from the "employees" table.
+
+Keep in mind that the behavior of OFFSET and LIMIT can vary depending on the database management system (DBMS) you are using. Some DBMSs might use different syntax or provide alternative ways to achieve similar results.
+</details>
+
+    
+</details>
+
 
 
