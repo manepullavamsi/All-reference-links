@@ -55,7 +55,7 @@ The `@Version` annotation is a powerful tool that can help to prevent data loss 
 </details>
 
 <details>
-Sql Things
+<summary>Sql Things</summary>
 <details>
     <summary> OFFSET </summary>
     In SQL, the term "offset" is commonly used in combination with the "LIMIT" clause to control the number of rows returned by a query and to specify how many rows should be skipped before starting to retrieve rows. This is often used for implementing pagination or retrieving subsets of data.
