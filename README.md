@@ -7,3 +7,4 @@
 6. Best reference for paging concept with springboot : https://reflectoring.io/spring-boot-paging/#paging-vs-paginationm
 
 7. Best reference to handle concurrency issues while updating databases :(reference)[https://medium.com/@bubu.tripathy/managing-concurrent-database-updates-eaf2fe161c48]
+8. Java Records [refernce](https://docs.oracle.com/en/java/javase/17/language/records.html#GUID-6699E26F-4A9B-4393-A08B-1E47D4B2D263)
